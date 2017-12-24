@@ -1,0 +1,68 @@
+section {
+    background-image: url("../images/9880_1280x800.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    div {
+        padding: 100px 0;
+    }
+
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    h1, form {
+        text-align: center;
+        margin: 0;
+        padding-top: 25px;
+    }
+
+    input {
+        padding: 10px;
+    }
+
+    input[type="checkbox"] {
+        width: 30px;
+    }
+
+    #submit {
+        border: none;
+        padding: 10px 15px;
+        border-radius: 25px;
+        background-color: rgba(135, 36, 36, 0.8);
+        transition-duration: 0.5s;
+        &:hover {
+            transition-duration: 0.5s;
+            opacity: 0.7;
+            cursor: pointer;
+        }
+    }
+
+    li {
+        padding-bottom: 30px;
+    }
+
+    .remove {
+        float: right;
+        cursor: pointer;
+        padding: 10px 20px;
+        background-color: #fff;
+        border-radius: 20px;
+        transition-duration: 0.5s;
+        &:hover {
+            transition-duration: 0.5s;
+            opacity: 0.7;
+        }
+    }
+
+    .completed {
+        text-decoration: line-through;
+    }
+}
